@@ -47,6 +47,7 @@ namespace FlashCards
             multiplicandLabel.Text = multiplicand.ToString();
             multiplierLabel.Text = multiplier.ToString();
             answerTextBox.Text = "";
+            answerTextBox.Focus();
         }
 
         public int getNumber(int start, int end)
