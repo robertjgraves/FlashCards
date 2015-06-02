@@ -33,6 +33,7 @@ namespace FlashCards
             else
             {
                 resultLabel.Text = "Please enter a value.";
+                resultLabel.CssClass = "text-warning";
             }
         }
 
@@ -59,13 +60,15 @@ namespace FlashCards
         {
             if (product == answer)
             {
+                resultLabel.CssClass = "text-success";
                 resultLabel.Text = "You are correct!";
                 int streak = int.Parse(countLabel.Text);
                 streak++;
                 countLabel.Text = streak.ToString();
             }
             else
-            { 
+            {
+                resultLabel.CssClass = "text-danger";
                 resultLabel.Text = String.Format("This answer is {0}.", product);
                 countLabel.Text = "0";
             }
