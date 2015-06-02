@@ -22,25 +22,26 @@
         </div>      
         <div class="row">
             <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <asp:Label ID="multiplicandLabel" class="control-label" runat="server" Text=""></asp:Label> &times; 
+                            <asp:Label ID="multiplierLabel" class="control-label" runat="server" Text=""></asp:Label> = 
+                            <asp:TextBox ID="answerTextBox" class="form-control" runat="server"></asp:TextBox>
+                        </div>
+                            <asp:Button ID="checkAnswerButton" runat="server" class="btn btn-primary" Text="Check Answer" OnClick="checkAnswerButton_Click" />
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="row">
+            <div class="col-md-12">
                 <p>
                     <asp:Label ID="resultLabel" runat="server" Text=""></asp:Label>
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <asp:Label ID="multiplicandLabel" class="control-label" runat="server" Text=""></asp:Label> &times; 
-                    <asp:Label ID="multiplierLabel" class="control-label" runat="server" Text=""></asp:Label> = 
-                    <asp:TextBox ID="answerTextBox" class="form-control" runat="server"></asp:TextBox>
-                </div>
-                
-                   <asp:Button ID="checkAnswerButton" runat="server" class="btn btn-primary" Text="Check Answer" OnClick="checkAnswerButton_Click" />
-                   
-                   
-                   
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-md-12">
                 <p></p>
@@ -54,12 +55,11 @@
         
         
        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="Scripts/bootstrap.min.js"></script>
-    
-    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Scripts/bootstrap.min.js"></script>
+        
     </form>
     
 </body>
