@@ -36,7 +36,7 @@
                 </div>
                 
                    <asp:Button ID="checkAnswerButton" runat="server" class="btn btn-primary" Text="Check Answer" OnClick="checkAnswerButton_Click" />
-                   <asp:Button ID="newCard" runat="server" class="btn btn-default" Text="Get New Card" OnClick="newCard_Click" />
+                   
                    
                    
             </div>

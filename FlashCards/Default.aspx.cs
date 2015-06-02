@@ -61,22 +61,25 @@ namespace FlashCards
             if (product == answer)
             {
                 resultLabel.CssClass = "text-success";
-                resultLabel.Text = "You are correct!";
+                resultLabel.Text = String.Format("{0} x {1} = {2} and is correct!", multiplicandLabel.Text, multiplierLabel.Text, answer);
                 int streak = int.Parse(countLabel.Text);
                 streak++;
                 countLabel.Text = streak.ToString();
+                setupCards();
             }
             else
             {
                 resultLabel.CssClass = "text-danger";
-                resultLabel.Text = String.Format("This answer is {0}.", product);
+                resultLabel.Text = String.Format("{0} x {1} = {2}. Your answer of {3} is not correct.", multiplicandLabel.Text, multiplierLabel.Text, product, answer);
                 countLabel.Text = "0";
+                setupCards();
             }
         }
-
+        /*
         protected void newCard_Click(object sender, EventArgs e)
         {
             setupCards();
         }
+        */
     }
 }
