@@ -22,19 +22,22 @@ namespace FlashCards
 
         protected void checkAnswerButton_Click(object sender, EventArgs e)
         {
-            if(answerTextBox.Text != "")
+            int answer;
+
+            bool result = int.TryParse(answerTextBox.Text, out answer);
+            
+            if (result)
             {
                 int product = int.Parse(multiplicandLabel.Text) * int.Parse(multiplierLabel.Text);
-                int answer = int.Parse(answerTextBox.Text);
-
                 checkAnswer(product, answer);
             }
-            
             else
             {
-                resultLabel.Text = "Please enter a value.";
+                resultLabel.Text = "Please enter a valid answer!";
                 resultLabel.CssClass = "text-warning";
             }
+
+            
         }
 
         public void setupCards()
