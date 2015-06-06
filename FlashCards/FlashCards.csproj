@@ -63,6 +63,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Division.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
     <Content Include="Multiplication.aspx" />
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Division.aspx.cs">
+      <DependentUpon>Division.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Division.aspx.designer.cs">
+      <DependentUpon>Division.aspx</DependentUpon>
     </Compile>
     <Compile Include="Multiplication.aspx.cs">
       <DependentUpon>Multiplication.aspx</DependentUpon>
