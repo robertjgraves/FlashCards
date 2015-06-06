@@ -33,7 +33,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Subtraction</div>
                     <div class="panel-body">
-                        <asp:Button ID="SubtractionButton" runat="server" CssClass="btn btn-danger btn-lg" Text="−" Width="60px" />
+                        <asp:Button ID="SubtractionButton" runat="server" CssClass="btn btn-danger btn-lg" Text="−" Width="60px" OnClick="SubtractionButton_Click" />
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Division</div>
                     <div class="panel-body">
-                        <asp:Button ID="DivisionButton" runat="server" CssClass="btn btn-warning btn-lg" Text="÷" Width="60px" />
+                        <asp:Button ID="DivisionButton" runat="server" CssClass="btn btn-warning btn-lg" Text="÷" Width="60px" Enabled="False" />
                     </div>
                 </div>
             </div>
