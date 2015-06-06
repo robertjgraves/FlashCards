@@ -25,7 +25,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Addition</div>
                     <div class="panel-body">
-                        <asp:Button ID="AdditionButton" runat="server" CssClass="btn btn-danger btn-lg" OnClick="AdditionButton_Click" Text="+" Width="60px" />
+                        <asp:Button ID="AdditionButton" runat="server" CssClass="btn btn-success  btn-lg" OnClick="AdditionButton_Click" Text="+" Width="60px" />
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Subtraction</div>
                     <div class="panel-body">
-                        <asp:Button ID="SubtractionButton" runat="server" CssClass="btn btn-success btn-lg" Text="-" Width="60px" />
+                        <asp:Button ID="SubtractionButton" runat="server" CssClass="btn btn-danger btn-lg" Text="−" Width="60px" />
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Multiplication</div>
                     <div class="panel-body">
-                        <asp:Button ID="MultiplicationButton" runat="server" Text="x" CssClass="btn btn-primary btn-lg" OnClick="MultiplicationButton_Click" Width="60px" />
+                        <asp:Button ID="MultiplicationButton" runat="server" Text="×" CssClass="btn btn-primary btn-lg" OnClick="MultiplicationButton_Click" Width="60px" />
                     </div>
                 </div>
             </div>
