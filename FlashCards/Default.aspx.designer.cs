@@ -31,6 +31,15 @@ namespace FlashCards {
         protected global::System.Web.UI.WebControls.Button AdditionButton;
         
         /// <summary>
+        /// SubtractionButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SubtractionButton;
+        
+        /// <summary>
         /// MultiplicationButton control.
         /// </summary>
         /// <remarks>
@@ -38,5 +47,14 @@ namespace FlashCards {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button MultiplicationButton;
+        
+        /// <summary>
+        /// DivisionButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DivisionButton;
     }
 }
