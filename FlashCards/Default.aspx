@@ -49,7 +49,7 @@
             </div>
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Division</div>
+                    <div class="panel-heading">Division - Coming Soon!</div>
                     <div class="panel-body">
                         <asp:Button ID="DivisionButton" runat="server" CssClass="btn btn-warning btn-lg" Text="÷" Width="60px" Enabled="False" />
                     </div>
