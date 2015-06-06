@@ -19,6 +19,11 @@ namespace FlashCards
         {
             Response.Redirect("Multiplication.aspx");
         }
+
+        protected void AdditionButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Addition.aspx");
+        }
        
     }
 }

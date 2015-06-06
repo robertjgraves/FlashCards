@@ -14,7 +14,7 @@
 <body>
     
     <form id="form1" class="form-inline" runat="server">  
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="col-md-12">
               <h1>Math Flash Cards</h1>
@@ -24,15 +24,13 @@
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        Addition
+                        <asp:Button ID="AdditionButton" runat="server" CssClass="btn btn-danger btn-lg" OnClick="AdditionButton_Click" Text="+" Width="60px" />
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        Subtraction
-                    </div>
+                    <div class="panel-body">Subtraction</div>
                 </div>
             </div>
         </div>
@@ -40,15 +38,13 @@
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <asp:Button ID="MultiplicationButton" runat="server" Text="Multiplication" CssClass="btn btn-primary" OnClick="MultiplicationButton_Click" />
+                        <asp:Button ID="MultiplicationButton" runat="server" Text="x" CssClass="btn btn-primary btn-lg" OnClick="MultiplicationButton_Click" Width="60px" />
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <div class="panel-body">
-                        Division
-                    </div>
+                    <div class="panel-body">Division</div>
                 </div>
             </div>
         </div>   
