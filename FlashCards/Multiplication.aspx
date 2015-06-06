@@ -26,7 +26,7 @@
                         <div class="form-group">
                             <asp:Label ID="multiplicandLabel" class="control-label" runat="server" Text=""></asp:Label> &times; 
                             <asp:Label ID="multiplierLabel" class="control-label" runat="server" Text=""></asp:Label> = 
-                            <asp:TextBox ID="answerTextBox" class="form-control" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="answerTextBox" class="form-control" runat="server" TextMode="Number"></asp:TextBox>
                         </div>
                             <asp:Button ID="checkAnswerButton" runat="server" class="btn btn-primary" Text="Check Answer" OnClick="checkAnswerButton_Click" />
                     </div>

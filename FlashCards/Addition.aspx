@@ -26,7 +26,7 @@
                         <div class="form-group">
                             <asp:Label ID="addend1Label" class="control-label" runat="server" Text=""></asp:Label> &#43; 
                             <asp:Label ID="addend2Label" class="control-label" runat="server" Text=""></asp:Label> = 
-                            <asp:TextBox ID="answerTextBox" class="form-control" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="answerTextBox" class="form-control" runat="server" TextMode="Number"></asp:TextBox>
                         </div>
                             <asp:Button ID="checkAnswerButton" runat="server" class="btn btn-primary" Text="Check Answer" OnClick="checkAnswerButton_Click" />
                     </div>
