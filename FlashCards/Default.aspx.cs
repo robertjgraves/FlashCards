@@ -29,6 +29,11 @@ namespace FlashCards
         {
             Response.Redirect("Subtraction.aspx");
         }
+
+        protected void DivisionButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Division.aspx");
+        }
        
     }
 }
